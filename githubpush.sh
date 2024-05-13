@@ -22,3 +22,6 @@ echo -n "Branch name to push: "
 read branch
 
 git push origin $branch
+
+echo -n "Close this window? [ENTER]"
+read -rs

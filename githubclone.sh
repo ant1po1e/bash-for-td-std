@@ -15,3 +15,6 @@ read branch
 git checkout -b $branch
 
 start "" "C:\Program Files\Git\git-bash.exe"
+
+echo -n "Close this window? [ENTER]"
+read -rs

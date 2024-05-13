@@ -10,3 +10,6 @@ read branch
 
 git checkout $branch
 
+echo -n "Close this window? [ENTER]"
+read -rs
+
