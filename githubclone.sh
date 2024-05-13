@@ -7,7 +7,7 @@ git clone https://github.com/mutugamedev/$repo
 
 cd $(basename $repo .git)
 
-git pull origin main
+git pull origin staging
 
 echo -n "Input branch name to work: "
 read branch
